@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            transition: color 10s;
+        }
+        .hidden-text {
+            transition: opacity 10s;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p class="hidden-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bananas are so amazing. They're yellow, they're long, they're slightly curved. They're nature's comedy fruit. But they're also so much more. They're a great source of potassium. They come in their own natural packaging. They're the perfect snack. They're versatile too. You can put them in a smoothie, you can put them on toast, you can bake them into a cake. Bananas are truly the king of fruits. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+    <script>
+        setTimeout(function() {
+            document.body.style.color = 'lightgrey';
+            document.querySelector('.hidden-text').style.opacity = '0.5';
+        }, 10000);
+    </script>
+</body>
+</html>
