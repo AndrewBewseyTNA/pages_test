@@ -80,18 +80,22 @@
              }
           },
           {
-            "type": "Feature",
+            "id":"https://example.org/iiif/feature/3",
+            "type":"Feature",
+            "properties":{
+                "label":{
+                   "en":[
+                      "navPlace Extension Example Manifest"
+                   ]
+                }
+             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     9.738,
                    51.533
                 ]
-            },
-            "properties": {
-                "template_path": "test_images/test_three/tree.png"
-            },
-            "id": "test_id"
+            }
         }
        ]
     }
