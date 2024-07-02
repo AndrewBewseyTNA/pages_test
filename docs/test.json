@@ -61,24 +61,7 @@
        "id" : "https://example.org/iiif/feature-collection/2",
        "type":"FeatureCollection",
        "features":[
-          {
-             "id":"https://example.org/iiif/feature/2",
-             "type":"Feature",
-             "properties":{
-                "label":{
-                   "en":[
-                      "navPlace Extension Example Manifest"
-                   ]
-                }
-             },
-             "geometry":{
-                "type":"Point",
-                "coordinates":[
-                   9.938,
-                   51.533
-                ]
-             }
-          },
+          
           {
             "id":"https://example.org/iiif/feature/3",
             "type":"Feature",
