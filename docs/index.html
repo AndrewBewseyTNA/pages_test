@@ -5,7 +5,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            transition: color 10s;
+            transition: color 10s, background-color 20s;
         }
         .hidden-text {
             transition: opacity 10s;
@@ -16,13 +16,16 @@
 <body>
     <h1>Hello World</h1>
     <p class="hidden-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bananas are so amazing. They're yellow, they're long, they're slightly curved. They're nature's comedy fruit. But they're also so much more. They're a great source of potassium. They come in their own natural packaging. They're the perfect snack. They're versatile too. You can put them in a smoothie, you can put them on toast, you can bake them into a cake. Bananas are truly the king of fruits. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Lorem ipsum dolor sit amet, consectetur bananas. They're yellow, they're long, they're slightly curved. Adipiscing elit, bananas are so amazing. They're nature's comedy fruit. Sed do eiusmod tempor incididunt ut labore et bananas. They're a great source of potassium. They come in their own natural packaging. They're the perfect snack. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Bananas are versatile too. You can put them in a smoothie, you can put them on toast, you can bake them into a cake. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Bananas are truly the king of fruits. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     <script>
-        setTimeout(function() {
-            document.body.style.color = 'lightgrey';
+        window.onload = function() {
+            document.body.style.color = 'yellow';
             document.querySelector('.hidden-text').style.opacity = '0.5';
-        }, 10000);
+            setTimeout(function() {
+                document.body.style.backgroundColor = '#E3A857'; // Deep, rich, banana yellow
+            }, 10000);
+        };
     </script>
 </body>
 </html>
