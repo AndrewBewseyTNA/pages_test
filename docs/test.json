@@ -78,7 +78,21 @@
                    51.533
                 ]
              }
-          }
+          },
+          {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.700317,
+                    51.267531
+                ]
+            },
+            "properties": {
+                "template_path": "test_images/test_three/tree.png"
+            },
+            "id": "test_id"
+        }
        ]
     }
  }
