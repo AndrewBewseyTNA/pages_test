@@ -60,31 +60,62 @@
      "navPlace":{
          "id" : "https://example.org/iiif/feature-collection/2",
          "type":"FeatureCollection",
-         "features":[
-             
-             {
-                "id":"https://example.org/iiif/feature/3",
-                "type":"Feature",
-                "properties":{
-                     "label":{
-                         "en":[
-                             "navPlace Extension Example Manifeasdfasdfasdfast"
-                         ]
-                     }
-                 },
+        "features": [
+            {
+                "id": "https://example.org/iiif/feature/3",
+                "type": "Feature",
+                "properties": {
+                    "label": {
+                        "en": [
+                            "navPlace Extension Example Manifeasdfasdfasdfast"
+                        ]
+                    }
+                },
                 "geometry": {
-                     "type": "Polygon",
-                     "coordinates": [
-                          [
-                                [9.738, 51.533],
-                                [9.739, 51.534],
-                                [9.740, 51.533],
-                                [9.738, 51.533]
-                          ]
-                     ]
+                    "type": "Polygon",
+                    "coordinates": [
+                        [
+                            [9.738, 51.533],
+                            [9.739, 51.534],
+                            [9.740, 51.533],
+                            [9.738, 51.533]
+                        ]
+                    ]
                 }
-             }
-         ]
-     }
+            },
+            {
+                "id": "https://example.org/iiif/feature/4",
+                "type": "Feature",
+                "properties": {
+                    "label": {
+                        "en": [
+                            "Line String Feature"
+                        ]
+                    }
+                },
+                "geometry": {
+                    "type": "LineString",
+                    "coordinates": [
+                        [9.739, 51.533],
+                        [9.740, 51.534]
+                    ]
+                }
+            },
+            {
+                "id": "https://example.org/iiif/feature/5",
+                "type": "Feature",
+                "properties": {
+                    "label": {
+                        "en": [
+                            "Point Feature"
+                        ]
+                    }
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [9.740, 51.533]
+                }
+            }
+        ]
+    }
 }
-                       
