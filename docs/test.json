@@ -73,11 +73,35 @@
                 }
              },
             "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    9.738,
-                   51.533
-                ]
+                "type": "GeometryCollection",
+                "geometry": {
+                    "type": "GeometryCollection",
+                    "geometries": [
+                        {
+                            "type": "Point",
+                            "coordinates": [9.738, 51.533]
+                        },
+                        {
+                            "type": "LineString",
+                            "coordinates": [
+                                [9.738, 51.533],
+                                [9.739, 51.534],
+                                [9.740, 51.535]
+                            ]
+                        },
+                        {
+                            "type": "Polygon",
+                            "coordinates": [
+                                [
+                                    [9.738, 51.533],
+                                    [9.739, 51.534],
+                                    [9.740, 51.533],
+                                    [9.738, 51.533]
+                                ]
+                            ]
+                        }
+                    ]
+                }
             }
         }
        ]
