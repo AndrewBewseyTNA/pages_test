@@ -43,7 +43,7 @@
                 }
             ],
             "navPlace": {
-                "id": "https://andrewbewseytna.github.io/pages_test/manifest.json",
+                "id": "https://example.org/iiif/feature-collection/2",
                 "type": "FeatureCollection",
                 "features": [
                     {
