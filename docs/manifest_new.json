@@ -1,0 +1,82 @@
+{
+    "@context": [
+        "http://iiif.io/api/extension/navplace/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+    ],
+    "id": "https://andrewbewseytna.github.io/pages_test/manifest_new.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "https://andrewbewseytna.github.io/pages_test/manifest_new.json"
+        ]
+    },
+    "items": [
+        {
+            "type": "Canvas",
+            "id": "https://andrewbewseytna.github.io/pages_test/canvas/p1",
+            "width": 16800,
+            "height": 11727,
+            "label": {
+                "en": [
+                    "https://andrewbewseytna.github.io/pages_test/manifest_new.json"
+                ]
+            },
+            "items": [
+                {
+                    "type": "AnnotationPage",
+                    "id": "https://andrewbewseytna.github.io/pages_test/page/p1/1/annotations",
+                    "items": [
+                        {
+                            "id": "https://andrewbewseytna.github.io/pages_test/page/p1/1/annotation",
+                            "type": "Annotation",
+                            "target": "https://andrewbewseytna.github.io/pages_test/page/p1/1",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://github.com/AndrewBewseyTNA/map_to_iiif/blob/main/example_images/bristol.png",
+                                "type": "Image",
+                                "format": "image/png",
+                                "height": 11727,
+                                "width": 16800
+                            }
+                        }
+                    ]
+                }
+            ],
+            "navPlace": {
+                "id": "https://andrewbewseytna.github.io/pages_test/navplace",
+                "type": "FeatureCollection",
+                "features": [
+                    {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -3.700317,
+                                51.267531
+                            ]
+                        },
+                        "properties": {
+                            "template_path": "test_images/test_three/tree.png"
+                        },
+                        "id": "test_id"
+                    },
+                    {
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -3.700317,
+                                51.267562
+                            ]
+                        },
+                        "properties": {
+                            "template_path": "test_images/test_three/tree.png"
+                        },
+                        "id": "test_id"
+                    }
+                ]
+            }
+        }
+    ]
+}
+                    
