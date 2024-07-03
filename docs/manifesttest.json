@@ -56,9 +56,13 @@
                             ]
                         },
                         "properties": {
-                            "template_path": "test_images/test_three/tree.png"
+                            "label": {
+                                "en": [
+                                    "test_images/test_three/tree.png"
+                                ]
+                            }
                         },
-                        "id": "test_id"
+                        "id": "https://example.org/iiif/feature/4"
                     },
                     {
                         "type": "Feature",
@@ -70,9 +74,13 @@
                             ]
                         },
                         "properties": {
-                            "template_path": "test_images/test_three/tree.png"
+                            "label": {
+                                "en": [
+                                    "test_images/test_three/tree.png"
+                                ]
+                            }
                         },
-                        "id": "test_id"
+                        "id":  "https://example.org/iiif/feature/5"
                     }
                 ]
             }
