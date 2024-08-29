@@ -13,7 +13,7 @@
         {
             "id": "https://example.org/iiif/canvas/1",
             "type": "Canvas",
-            "height": 3000,  # Adjust height and width as per the actual image dimensions
+            "height": 3000, 
             "width": 2315,
             "label": {
                 "en": [
@@ -33,7 +33,7 @@
                                 "id": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Air_Raid_Damage_in_Britain_during_the_Second_World_War_HU36188.jpg",
                                 "type": "Image",
                                 "format": "image/jpeg",
-                                "height": 3000,  # Adjust height and width as per the actual image dimensions
+                                "height": 3000,  
                                 "width": 2315,
                                 "service": [
                                     {
