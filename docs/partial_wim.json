@@ -85,6 +85,75 @@
                     }
                 ]
             }
+        },
+        {
+            "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/canvas/20200926225550/WqaYIijtwS2oZLxbDNcQsw==",
+            "type": "Canvas",
+            "height": 3024,
+            "width": 4032,
+            "items": [
+                {
+                    "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/annotation-page/20200926225550/WqaYIijtwS2oZLxbDNcQsw==",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/painting/20200926225550/WqaYIijtwS2oZLxbDNcQsw==",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://blogs.iwm.org.uk/sites/default/files/2019-10/army-training-28-12_0.jpg",
+                                "type": "Image",
+                                "height": 3024,
+                                "width": 4032
+                            },
+                            "target": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/canvas-20200926225550/WqaYIijtwS2oZLxbDNcQsw=="
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/5",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/comment/20200926225550/WqaYIijtwS2oZLxbDNcQsw==",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "body": {
+                                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/text/20200926225550/WqaYIijtwS2oZLxbDNcQsw==",
+                                "type": "TextualBody",
+                                "value": "BRITAIN PREPARES FOR WAR (ARMY TRAINING 28/12) Leslie Hore-Belisha MP, Secretary of State for War, makes a speech to new recruits of the Militia. Copyright: \ufffd IWM. Original Source: http://www.iwm.org.uk/collections/item/object/205209446"
+                            },
+                            "target": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/canvas-20200926225550/WqaYIijtwS2oZLxbDNcQsw=="
+                        }
+                    ]
+                }
+            ],
+            "navPlace": {
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace/5",
+                "type": "FeatureCollection",
+                "features": [
+                    {
+                        "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace/5/1",
+                        "type": "Feature",
+                        "properties": {
+                            "label": {
+                                "en": [
+                                    "Navplace for https://miiifystore.s3.eu-west-2.amazonaws.com/swb/iwm.json"
+                                ]
+                            }
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                42.454805,
+                                -73.489834
+                            ]
+                        }
+                    }
+                ]
+            }
         }
     ]
 }
