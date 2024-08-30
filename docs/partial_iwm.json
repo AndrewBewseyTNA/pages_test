@@ -1,8 +1,5 @@
 {
-    "@context": [
-        "http://iiif.io/api/extension/navplace/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-    ],
+    "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/manifest.json",
     "type": "Manifest",
     "label": {
@@ -154,13 +151,26 @@
             "navplace": {
                 "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace",
                 "type": "FeatureCollection",
-                "features": {
-                    "type": "Point",
-                    "coordinates": [
-                        -37.826775,
-                        144.997939
-                    ]
-                }
+                "features": [
+                    {
+                        "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace",
+                        "type": "Feature",
+                        "properties": {
+                            "label": {
+                                "en": [
+                                    "Navplace for https://miiifystore.s3.eu-west-2.amazonaws.com/swb/iwm.json"
+                                ]
+                            }
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -37.826775,
+                                144.997939
+                            ]
+                        }
+                    }
+                ]
             }
         },
         {
@@ -255,13 +265,26 @@
             "navplace": {
                 "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace",
                 "type": "FeatureCollection",
-                "features": {
-                    "type": "Point",
-                    "coordinates": [
-                        42.454805,
-                        -73.489834
-                    ]
-                }
+                "features": [
+                    {
+                        "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace",
+                        "type": "Feature",
+                        "properties": {
+                            "label": {
+                                "en": [
+                                    "Navplace for https://miiifystore.s3.eu-west-2.amazonaws.com/swb/iwm.json"
+                                ]
+                            }
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                42.454805,
+                                -73.489834
+                            ]
+                        }
+                    }
+                ]
             }
         },
         {
