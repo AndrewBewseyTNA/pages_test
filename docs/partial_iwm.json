@@ -152,11 +152,11 @@
                 }
             ],
             "navPlace": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace",
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace/3",
                 "type": "FeatureCollection",
                 "features": [
                     {
-                        "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace",
+                        "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace/3/1",
                         "type": "Feature",
                         "properties": {
                             "label": {
@@ -168,8 +168,8 @@
                         "geometry": {
                             "type": "Point",
                             "coordinates": [
-                                -37.826775,
-                                144.997939
+                                144.997939,
+                                -37.826775
                             ]
                         }
                     }
@@ -266,11 +266,11 @@
                 }
             ],
             "navPlace": {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace",
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace/5",
                 "type": "FeatureCollection",
                 "features": [
                     {
-                        "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace",
+                        "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace/5/1",
                         "type": "Feature",
                         "properties": {
                             "label": {
@@ -282,8 +282,8 @@
                         "geometry": {
                             "type": "Point",
                             "coordinates": [
-                                42.454805,
-                                -73.489834
+                                -74.129589,
+                                41.477872
                             ]
                         }
                     }
