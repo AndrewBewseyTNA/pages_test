@@ -100,26 +100,27 @@
                 "target": "https://iiif.io/api/cookbook/recipe/0139-geolocate-canvas-fragment/canvas.json#xywh=920,3600,1510,3000"
               },
               {
-                "id":"https://www.example.org/example_text_point",
-                "type":"Annotation",
-                "motivation":"tagging",
-                "body" : {
-                    "id": "https://www.example.org/example_text_point_body",
-                    "type":"Feature",
-                    "properties":{
-                        "label": {
-                            "en": [
-                                "testp point near the polygon"
-                            ]
-                        },
-                        "geometry" : {
-                            "type": "Point",
-                            "coordinates":[
-                                -77.02,
-                                38.92
-                            ]
-                        }
+                "id": "https://iiif.io/api/cookbook/recipe/0139-geolocate-canvas-fragment/geoAnno.json",
+                "type": "Annotation",
+                "motivation": "tagging",
+                "body": {
+                  "id": "https://iiif.io/api/cookbook/recipe/0139-geolocate-canvas-fragment/geo.json",
+                  "type": "Feature",
+                  "properties": {
+                    "label": {
+                      "en": [
+                        "Test test test"
+                      ]
                     }
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": 
+                        [
+                          -77.02,
+                          38.90
+                        ]
+                  }
                 },
                 "target": "https://iiif.io/api/cookbook/recipe/0139-geolocate-canvas-fragment/canvas.json#xywh=920,3600,1510,3000"
               }
