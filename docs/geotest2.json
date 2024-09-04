@@ -1,0 +1,462 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/a6431962549d19cf",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2024-06-02T21:43:23.531Z",
+      "modified": "2024-06-02T21:43:23.531Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://cdm16703.contentdm.oclc.org/iiif/2/maps:54",
+          "type": "ImageService2",
+          "height": 1921,
+          "width": 3000,
+          "partOf": [
+            {
+              "id": "https://cdm16703.contentdm.oclc.org/iiif/maps:54/canvas/c0",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "Nirenstein Atlas, Hollywood, 1956"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://cdm16703.contentdm.oclc.org/iiif/maps:56/manifest.json",
+                  "type": "Manifest",
+                  "label": {
+                    "none": [
+                      "Nirenstein Atlas, Hollywood, 1956"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"3000\" height=\"1921\"><polygon points=\"156,1275 159,652 2850,646 2849,1276\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1256,
+                1097
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -118.3295357,
+                34.1011333
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2282,
+                675
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -118.3251806,
+                34.1026458
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                356,
+                964
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -118.3333528,
+                34.1015865
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2629,
+                963
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -118.3237954,
+                34.1016499
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/a6431962549d19cf",
+          "version": "https://annotations.allmaps.org/maps/a6431962549d19cf@78cbd2ed2e2a51b9",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/16f2c87d8aa72c0d",
+            "version": "https://annotations.allmaps.org/images/16f2c87d8aa72c0d@c610e7f58d82ed5f",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/3fdce5d4b0f6c313",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/64d6e35b64564692"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 2.571429,
+          "area": 255061.99
+        }
+      }
+    },
+    {
+      "id": "https://annotations.allmaps.org/maps/2982db7b1f301e19",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2024-06-02T21:43:23.531Z",
+      "modified": "2024-06-02T21:43:23.531Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://cdm16703.contentdm.oclc.org/iiif/2/maps:54",
+          "type": "ImageService2",
+          "height": 1921,
+          "width": 3000,
+          "partOf": [
+            {
+              "id": "https://cdm16703.contentdm.oclc.org/iiif/maps:54/canvas/c0",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "Nirenstein Atlas, Hollywood, 1956"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://cdm16703.contentdm.oclc.org/iiif/maps:56/manifest.json",
+                  "type": "Manifest",
+                  "label": {
+                    "none": [
+                      "Nirenstein Atlas, Hollywood, 1956"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"3000\" height=\"1921\"><polygon points=\"157,1902 154,1276 2853,1276 2851,1902\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2741,
+                1545
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -118.3122643,
+                34.1017286
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                318,
+                1551
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -118.3223852,
+                34.1016478
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1364,
+                1731
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -118.3179911,
+                34.1010607
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2405,
+                1729
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -118.3136439,
+                34.1010733
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1675,
+                1550
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -118.3166095,
+                34.101698
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/2982db7b1f301e19",
+          "version": "https://annotations.allmaps.org/maps/2982db7b1f301e19@965b76991580e769",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/16f2c87d8aa72c0d",
+            "version": "https://annotations.allmaps.org/images/16f2c87d8aa72c0d@c610e7f58d82ed5f",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/3fdce5d4b0f6c313",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/64d6e35b64564692"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 2.591592,
+          "area": 251328.4
+        }
+      }
+    },
+    {
+      "id": "https://annotations.allmaps.org/maps/bd8c7fa4a0e46524",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2024-06-02T21:43:23.531Z",
+      "modified": "2024-06-02T21:43:23.531Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://cdm16703.contentdm.oclc.org/iiif/2/maps:54",
+          "type": "ImageService2",
+          "height": 1921,
+          "width": 3000,
+          "partOf": [
+            {
+              "id": "https://cdm16703.contentdm.oclc.org/iiif/maps:54/canvas/c0",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "Nirenstein Atlas, Hollywood, 1956"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://cdm16703.contentdm.oclc.org/iiif/maps:56/manifest.json",
+                  "type": "Manifest",
+                  "label": {
+                    "none": [
+                      "Nirenstein Atlas, Hollywood, 1956"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"3000\" height=\"1921\"><polygon points=\"155,13 2851,12 2849,645 158,654\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1700,
+                513
+              ],
+              "label": "davetest"
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -118.338687,
+                34.1008854
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                591,
+                331
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -118.3433876,
+                34.1015248
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2108,
+                616
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -118.3369569,
+                34.1005346
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2633,
+                330
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -118.3347622,
+                34.1015728
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                591,
+                521
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -118.3433744,
+                34.1008917
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/bd8c7fa4a0e46524",
+          "version": "https://annotations.allmaps.org/maps/bd8c7fa4a0e46524@d5cbc12747c5bffc",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/16f2c87d8aa72c0d",
+            "version": "https://annotations.allmaps.org/images/16f2c87d8aa72c0d@c610e7f58d82ed5f",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/3fdce5d4b0f6c313",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/64d6e35b64564692"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 2.552651,
+          "area": 263314.12
+        }
+      }
+    }
+  ]
+}
