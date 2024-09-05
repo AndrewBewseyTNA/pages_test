@@ -1,0 +1,195 @@
+{
+    "@context": [
+      "http://geojson.org/geojson-ld/geojson-context.jsonld",
+      "http://iiif.io/api/presentation/3/context.json"
+    ],
+    "id": "https://iiif.io/api/cookbook/recipe/0139-geolocate-canvas-fragment/manifest.json",
+    "type": "Manifest",
+    "label": {
+      "en": [
+        "Recipe Manifest for #139"
+      ]
+    },
+    "summary": {
+      "en": [
+        "A IIIF Presentation API 3.0 Manifest containing a GeoJSON-LD Web Annotation which targets a Canvas fragment."
+      ]
+    },
+    "items": [
+        {
+    "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/canvas/20200327144602/UZMYMG0t6UIxZVjCZwGHHw==",
+    "type": "Canvas",
+    "height": 3024,
+    "width": 4032,
+    "items": [
+        {
+            "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/annotation-page/20200327144602/UZMYMG0t6UIxZVjCZwGHHw==",
+            "type": "AnnotationPage",
+            "items": [
+                {
+                    "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/painting/20200327144602/UZMYMG0t6UIxZVjCZwGHHw==",
+                    "type": "Annotation",
+                    "motivation": "painting",
+                    "body": {
+                        "id": "https://media.iwm.org.uk/ciim5/20/655/large_000000.jpg",
+                        "type": "Image",
+                        "height": 3024,
+                        "width": 4032
+                    },
+                    "target": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/canvas-20200327144602/UZMYMG0t6UIxZVjCZwGHHw=="
+                }
+            ]
+        }
+    ],
+    "annotations": [
+        {
+            "id": "http://example.org/iiif/1",
+            "type": "AnnotationPage",
+            "items": [
+                {
+                    "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/comment/20200327144602/UZMYMG0t6UIxZVjCZwGHHw==",
+                    "type": "Annotation",
+                    "motivation": "commenting",
+                    "body": {
+                        "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/text/20200327144602/UZMYMG0t6UIxZVjCZwGHHw==",
+                        "type": "TextualBody",
+                        "value": "WOMEN'S WAR WORK DURING THE FIRST WORLD WAR (HU 70114) Women munitions workers' football team from the AEC Munitions Factory at Beckton, London. Copyright: \ufffd IWM. Original Source: http://www.iwm.org.uk/collections/item/object/205124205"
+                    },
+                    "target": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/canvas-20200327144602/UZMYMG0t6UIxZVjCZwGHHw=="
+                },
+                {
+                    "id": "https://www.example.com/geo_test_1",
+                    "type":"Feature",
+                    "properties":{
+                        "label":{
+                            "en":[
+                                "test 1"
+                            ]
+                        }
+                    },
+                    "geometry":{
+                        "type":"Point",
+                        "coordinates":[
+                            
+                        0.0445,
+                        51.5231
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "navPlace": {
+        "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace/1",
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace/1/1",
+                "type": "Feature",
+                "properties": {
+                    "label": {
+                        "en": [
+                            "Navplace for https://miiifystore.s3.eu-west-2.amazonaws.com/swb/iwm.json, WOMEN'S WAR WORK DURING THE FIRST WORLD WAR (HU 70114) Women munitions workers' football team from the AEC Munitions Factory at Beckton, London. Copyright: \ufffd IWM. Original Source: http://www.iwm.org.uk/collections/item/object/205124205"
+                        ]
+                    }
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.0445,
+                        51.5231
+                    ]
+                }
+            }
+        ]
+    }
+},
+{
+    "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/canvas/20200327144852/U9pCOxR+B+3VhqgA84V6fw==",
+    "type": "Canvas",
+    "height": 3024,
+    "width": 4032,
+    "items": [
+        {
+            "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/annotation-page/20200327144852/U9pCOxR+B+3VhqgA84V6fw==",
+            "type": "AnnotationPage",
+            "items": [
+                {
+                    "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/painting/20200327144852/U9pCOxR+B+3VhqgA84V6fw==",
+                    "type": "Annotation",
+                    "motivation": "painting",
+                    "body": {
+                        "id": "https://media.iwm.org.uk/ciim5/315/980/large_000000.jpg",
+                        "type": "Image",
+                        "height": 3024,
+                        "width": 4032
+                    },
+                    "target": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/canvas-20200327144852/U9pCOxR+B+3VhqgA84V6fw=="
+                },
+                {
+                    "id": "https://www.example.com/geo_test_2",
+                    "type":"Feature",
+                    "properties":{
+                        "label":{
+                            "en":[
+                                "test 1"
+                            ]
+                        }
+                    },
+                    "geometry":{
+                        "type":"Point",
+                        "coordinates":[
+                            -0.2558,
+                            51.4751
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "annotations": [
+        {
+            "id": "http://example.org/iiif/2",
+            "type": "AnnotationPage",
+            "items": [
+                {
+                    "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/comment/20200327144852/U9pCOxR+B+3VhqgA84V6fw==",
+                    "type": "Annotation",
+                    "motivation": "commenting",
+                    "body": {
+                        "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/text/20200327144852/U9pCOxR+B+3VhqgA84V6fw==",
+                        "type": "TextualBody",
+                        "value": "WAR MEMORIALS IN BRITAIN AFTER THE FIRST WORLD WAR (Q 48872) War Memorial at Kew. Copyright: \ufffd IWM. Original Source: http://www.iwm.org.uk/collections/item/object/205084585"
+                    },
+                    "target": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/canvas-20200327144852/U9pCOxR+B+3VhqgA84V6fw=="
+                }
+            ]
+        }
+    ],
+    "navPlace": {
+        "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace/2",
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace/2/1",
+                "type": "Feature",
+                "properties": {
+                    "label": {
+                        "en": [
+                            "Navplace for https://miiifystore.s3.eu-west-2.amazonaws.com/swb/iwm.json, WAR MEMORIALS IN BRITAIN AFTER THE FIRST WORLD WAR (Q 48872) War Memorial at Kew. Copyright: \ufffd IWM. Original Source: http://www.iwm.org.uk/collections/item/object/205084585"
+                        ]
+                    }
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -0.2558,
+                        51.4751
+                    ]
+                }
+            }
+        ]
+    }
+}
+    ]
+}
