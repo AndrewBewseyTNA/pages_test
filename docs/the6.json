@@ -16,101 +16,141 @@
       ]
     },
     "items": [
-        {
-    "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/canvas/20200327144602/UZMYMG0t6UIxZVjCZwGHHw==",
-    "type": "Canvas",
-    "height": 3024,
-    "width": 4032,
-    "items": [
-        {
-            "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/annotation-page/20200327144602/UZMYMG0t6UIxZVjCZwGHHw==",
+      {
+        "id": "https://iiif.io/api/cookbook/recipe/0139-geolocate-canvas-fragment/canvas.json",
+        "type": "Canvas",
+        "label": {
+          "en": [
+            "Chesapeake and Ohio Canal Pamphlet"
+          ]
+        },
+        "width": 5212,
+        "height": 7072,
+        "items": [
+          {
+            "id": "https://iiif.io/api/cookbook/recipe/0139-geolocate-canvas-fragment/contentPage.json",
             "type": "AnnotationPage",
             "items": [
-                {
-                    "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/painting/20200327144602/UZMYMG0t6UIxZVjCZwGHHw==",
-                    "type": "Annotation",
-                    "motivation": "painting",
-                    "body": {
-                        "id": "https://media.iwm.org.uk/ciim5/20/655/large_000000.jpg",
-                        "type": "Image",
-                        "height": 3024,
-                        "width": 4032
-                    },
-                    "target": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/canvas-20200327144602/UZMYMG0t6UIxZVjCZwGHHw=="
-                }
+              {
+                "id": "https://iiif.io/api/cookbook/recipe/0139-geolocate-canvas-fragment/content.json",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "service": [
+                    {
+                      "id": "https://iiif.io/api/image/3.0/example/reference/43153e2ec7531f14dd1c9b2fc401678a-88695674",
+                      "type": "ImageService3",
+                      "profile": "level1"
+                    }
+                  ],
+                  "width": 5212,
+                  "height": 7072
+                },
+                "target": "https://iiif.io/api/cookbook/recipe/0139-geolocate-canvas-fragment/canvas.json"
+              }
             ]
-        }
-    ],
-    "annotations": [
-        {
-            "id": "http://example.org/iiif/1",
+          }
+        ],
+        "annotations": [
+          {
+            "id": "https://iiif.io/api/cookbook/recipe/0139-geolocate-canvas-fragment/supplementingPage.json",
             "type": "AnnotationPage",
             "items": [
+              {
+                "id": "https://iiif.io/api/cookbook/recipe/0139-geolocate-canvas-fragment/geoAnno.json",
+                "type": "Annotation",
+                "motivation": "tagging",
+                "body": {
+                  "id": "https://iiif.io/api/cookbook/recipe/0139-geolocate-canvas-fragment/geo.json",
+                  "type": "Feature",
+                  "properties": {
+                    "label": {
+                      "en": [
+                        "Targeted Map from Chesapeake and Ohio Canal Pamphlet"
+                      ]
+                    }
+                  },
+                  "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                      [
+                        [
+                          -77.019853,
+                          38.913101
+                        ],
+                        [
+                          -77.110013,
+                          38.843254
+                        ],
+                        [
+                          -77.284698,
+                          38.997574
+                        ],
+                        [
+                          -77.188911,
+                          39.062648
+                        ]
+                      ]
+                    ]
+                  }
+                },
+                "target": "https://iiif.io/api/cookbook/recipe/0139-geolocate-canvas-fragment/canvas.json#xywh=920,3600,1510,3000"
+              },
+              {
+                "id": "https://www.example.com/geoAnno2.json",
+                "type": "Annotation",
+                "motivation": "tagging",
+                "body": {
+                  "id": "https://www.example.com/geo2.json",
+                  "type": "Feature",
+                  "properties": {
+                    "label": {
+                      "en": [
+                        "Test test test"
+                      ]
+                    }
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": 
+                        [
+                          -77.02,
+                          38.90
+                        ]
+                  }
+                },
+                "target": "https://iiif.io/api/cookbook/recipe/0139-geolocate-canvas-fragment/canvas.json#xywh=920,3600,1510,3000"
+              },
                 {
-                    "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/comment/20200327144602/UZMYMG0t6UIxZVjCZwGHHw==",
+                    "id": "https://www.example.com/geo_anno_label_name",
                     "type": "Annotation",
                     "motivation": "commenting",
                     "body": {
-                        "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/text/20200327144602/UZMYMG0t6UIxZVjCZwGHHw==",
+                        "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/text/20200327144852/U9pCOxR+B+3VhqgA84V6fw==",
                         "type": "TextualBody",
-                        "value": "WOMEN'S WAR WORK DURING THE FIRST WORLD WAR (HU 70114) Women munitions workers' football team from the AEC Munitions Factory at Beckton, London. Copyright: \ufffd IWM. Original Source: http://www.iwm.org.uk/collections/item/object/205124205"
+                        "value": "this is a place"
                     },
-                    "target": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/canvas-20200327144602/UZMYMG0t6UIxZVjCZwGHHw=="
-                },
-                {
-                    "id": "https://www.example.com/geo_test_1",
-                    "type":"Feature",
-                    "properties":{
-                        "label":{
-                            "en":[
-                                "test 1"
-                            ]
-                        }
-                    },
-                    "geometry":{
-                        "type":"Point",
-                        "coordinates":[
-                            
-                        0.0445,
-                        51.5231
-                        ]
-                    }
+                    "target":  "https://iiif.io/api/cookbook/recipe/0139-geolocate-canvas-fragment/canvas.json#xywh=920,3600,1510,3000"
                 }
             ]
-        }
-    ],
-    "navPlace": {
-        "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace/1",
-        "type": "FeatureCollection",
-        "features": [
-            {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace/1/1",
-                "type": "Feature",
-                "properties": {
-                    "label": {
-                        "en": [
-                            "Navplace for https://miiifystore.s3.eu-west-2.amazonaws.com/swb/iwm.json, WOMEN'S WAR WORK DURING THE FIRST WORLD WAR (HU 70114) Women munitions workers' football team from the AEC Munitions Factory at Beckton, London. Copyright: \ufffd IWM. Original Source: http://www.iwm.org.uk/collections/item/object/205124205"
-                        ]
-                    }
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        0.0445,
-                        51.5231
-                    ]
-                }
-            }
+          }
         ]
-    }
-},
-{
-    "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/canvas/20200327144852/U9pCOxR+B+3VhqgA84V6fw==",
-    "type": "Canvas",
-    "height": 3024,
-    "width": 4032,
-    "items": [
-        {
+      },
+      {
+        "id": "https://www.example.com/canvas.json",
+        "type": "Canvas",
+        "label": {
+          "en": [
+            "Chesapeake and Ohio Canal Pamphlet"
+          ]
+        },
+        "width": 5212,
+        "height": 7072,
+        "items": [
+          {
             "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/annotation-page/20200327144852/U9pCOxR+B+3VhqgA84V6fw==",
             "type": "AnnotationPage",
             "items": [
@@ -125,71 +165,94 @@
                         "width": 4032
                     },
                     "target": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/canvas-20200327144852/U9pCOxR+B+3VhqgA84V6fw=="
-                },
-                {
-                    "id": "https://www.example.com/geo_test_2",
-                    "type":"Feature",
-                    "properties":{
-                        "label":{
-                            "en":[
-                                "test 1"
-                            ]
-                        }
-                    },
-                    "geometry":{
-                        "type":"Point",
-                        "coordinates":[
-                            -0.2558,
-                            51.4751
-                        ]
-                    }
                 }
             ]
-        }
-    ],
-    "annotations": [
-        {
-            "id": "http://example.org/iiif/2",
+          }
+        ],
+        "annotations": [
+          {
+            "id": "https://www.example.com/example_annotation.json",
             "type": "AnnotationPage",
             "items": [
+              {
+                "id": "https://www.example.comgeoAnno.json",
+                "type": "Annotation",
+                "motivation": "tagging",
+                "body": {
+                  "id": "https://www.example.com/geo.json",
+                  "type": "Feature",
+                  "properties": {
+                    "label": {
+                      "en": [
+                        "Targeted Map from Chesapeake and Ohio Canal Pamphlet"
+                      ]
+                    }
+                  },
+                  "geometry": {
+                    "type": "Polygon",
+                    "coordinates": [
+                      [
+                        [
+                          -77.019853,
+                          38.913101
+                        ],
+                        [
+                          -77.110013,
+                          38.843254
+                        ],
+                        [
+                          -77.284698,
+                          38.997574
+                        ],
+                        [
+                          -77.188911,
+                          39.062648
+                        ]
+                      ]
+                    ]
+                  }
+                },
+                "target": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/annotation-page/20200327144852/U9pCOxR+B+3VhqgA84V6fw=="
+              },
+              {
+                "id": "https://www.example.com/geoAnno2.json",
+                "type": "Annotation",
+                "motivation": "tagging",
+                "body": {
+                  "id": "https://www.example.com/geo2.json",
+                  "type": "Feature",
+                  "properties": {
+                    "label": {
+                      "en": [
+                        "Test test test"
+                      ]
+                    }
+                  },
+                  "geometry": {
+                    "type": "Point",
+                    "coordinates": 
+                        [
+                          -77.02,
+                          38.90
+                        ]
+                  }
+                },
+                "target": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/annotation-page/20200327144852/U9pCOxR+B+3VhqgA84V6fw=="
+              },
                 {
-                    "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/comment/20200327144852/U9pCOxR+B+3VhqgA84V6fw==",
+                    "id": "https://www.example.com/geo_anno_label_name",
                     "type": "Annotation",
                     "motivation": "commenting",
                     "body": {
                         "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/text/20200327144852/U9pCOxR+B+3VhqgA84V6fw==",
                         "type": "TextualBody",
-                        "value": "WAR MEMORIALS IN BRITAIN AFTER THE FIRST WORLD WAR (Q 48872) War Memorial at Kew. Copyright: \ufffd IWM. Original Source: http://www.iwm.org.uk/collections/item/object/205084585"
+                        "value": "this is a place"
                     },
-                    "target": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/canvas-20200327144852/U9pCOxR+B+3VhqgA84V6fw=="
+                    "target":  "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/annotation-page/20200327144852/U9pCOxR+B+3VhqgA84V6fw=="
                 }
             ]
-        }
-    ],
-    "navPlace": {
-        "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace/2",
-        "type": "FeatureCollection",
-        "features": [
-            {
-                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace/2/1",
-                "type": "Feature",
-                "properties": {
-                    "label": {
-                        "en": [
-                            "Navplace for https://miiifystore.s3.eu-west-2.amazonaws.com/swb/iwm.json, WAR MEMORIALS IN BRITAIN AFTER THE FIRST WORLD WAR (Q 48872) War Memorial at Kew. Copyright: \ufffd IWM. Original Source: http://www.iwm.org.uk/collections/item/object/205084585"
-                        ]
-                    }
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [
-                        -0.2558,
-                        51.4751
-                    ]
-                }
-            }
+          }
         ]
-    }
-}
+      }
     ]
-}
+  }
