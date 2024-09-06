@@ -14368,7 +14368,31 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "navplace":{
+                "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace/1",
+                "type": "FeatureCollection",
+                "features": [
+                    {
+                        "id": "https://miiifystore.s3.eu-west-2.amazonaws.com/swb/navplace/1/1",
+                        "type": "Feature",
+                        "properties": {
+                            "label": {
+                                "en": [
+                                    "Navplace for https://miiifystore.s3.eu-west-2.amazonaws.com/swb/iwm.json, WOMEN'S WAR WORK DURING THE FIRST WORLD WAR (HU 70114) Women munitions workers' football team from the AEC Munitions Factory at Beckton, London. Copyright: \ufffd IWM. Original Source: http://www.iwm.org.uk/collections/item/object/205124205"
+                                ]
+                            }
+                        },
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                -0.0464,
+                                51.5053
+                            ]
+                        }
+                    }
+                ]
+            }
         }
     ]
 }
