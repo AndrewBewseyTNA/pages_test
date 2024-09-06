@@ -66,11 +66,12 @@
                             "motivation": "tagging",
                             "body": {
                                 "id": "https://example.org/iiif/canvas/1/geolocation_body.json",
-                                "type": "FeatureCollection",
+                                "type": "Feature",
                                 "properties": {
-                                    "type": "Feature",
-                                    "properties": {
-                                        "label": "test_json_use/exeter/church.png"
+                                        "label": {
+                                            "en": [
+                                              "test_json_use/exeter/church.png"
+                                            ]
                                     }
                                 },
                                 "geometry": {
