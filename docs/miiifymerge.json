@@ -1,0 +1,30 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Picture of Göttingen taken during the 2019 IIIF Conference"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://iiif.io/api/cookbook/recipe/0266-full-canvas-annotation/canvas-1",
+            "type": "Canvas",
+            "height": 3024,
+            "width": 4032,
+            "items": [
+                {
+                    "id": "https://miiify.onrender.com/annotations/02d50b91-62d8-4b41-8e43-6b42429be034/",
+                    "type": "AnnotationPage"
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "https://miiify.onrender.com/annotations/e1e7c21d-5ddc-414b-9d94-aa445aeb4a1c/",
+                    "type": "AnnotationPage"
+                }
+            ]
+        }
+    ]
+}
